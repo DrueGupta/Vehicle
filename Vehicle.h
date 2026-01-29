@@ -11,9 +11,9 @@ private:
 public:
 	double getX();
 	double getY();
-	void moveUp();
-	void moveDown();
-	void moveLeft();
-	void moveRight();
+	void moveUp(double);
+	void moveDown(double);
+	void moveLeft(double);
+	void moveRight(double);
 	void display();
 };
