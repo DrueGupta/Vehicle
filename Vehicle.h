@@ -5,12 +5,13 @@ using namespace std;
 class Vehicle
 {
 private:
-	int x;
-	int y;
-	int odometer;
+	int x = 0;
+	int y = 0;
+	int odometer = 0;
 public:
 	double getX();
 	double getY();
+	double getOdometer();
 	void moveUp(double);
 	void moveDown(double);
 	void moveLeft(double);
