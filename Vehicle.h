@@ -9,6 +9,8 @@ private:
 	int y;
 	int odometer;
 public:
+	double getX();
+	double getY();
 	void moveUp();
 	void moveDown();
 	void moveLeft();
