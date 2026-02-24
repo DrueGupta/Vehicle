@@ -1,11 +1,11 @@
 #include <iostream>
 #include "Vehicle.h"
+#include "Taxi.h"
 using namespace std;
 
 int main()
 {
-	Vehicle a;
-	a.moveLeft(10);
-	a.moveDown(6);
-	a.display();
+	Taxi* b = new Taxi(0, 0, 5);
+	b->callTaxi(7, 4, 5, 10);
+	b->display();
 }
