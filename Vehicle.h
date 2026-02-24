@@ -4,7 +4,7 @@ using namespace std;
 
 class Vehicle
 {
-private:
+protected:
 	int x = 0;
 	int y = 0;
 	int odometer = 0;
